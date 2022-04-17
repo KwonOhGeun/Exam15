@@ -7,7 +7,7 @@ public class Exam15 {
         int a;
 
         System.out.printf("1.국어 2.수학 3.영어 4.과학\n");
-        System.out.printf("과번 번호 : ");
+        System.out.printf("과목번호 : ");
         a = s.nextInt();
 
         switch (a) {
