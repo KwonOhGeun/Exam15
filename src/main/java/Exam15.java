@@ -2,11 +2,12 @@ import java.util.Scanner;
 
 public class Exam15 {
     public static void main(String[] args) {
+        //과목 번호를 입력받아 강의실 번호를 출력하는 예제
         Scanner s = new Scanner(System.in);
         int a;
 
         System.out.printf("1.국어 2.수학 3.영어 4.과학\n");
-        System.out.printf("과목번호 : ");
+        System.out.printf("과번 번호 : ");
         a = s.nextInt();
 
         switch (a) {
